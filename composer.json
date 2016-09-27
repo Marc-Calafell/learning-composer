@@ -1,5 +1,21 @@
 {
+    "name": "nosferatux/learning-composer",
+    "description": "hello world composer",
+    "type": "project",
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Marc",
+            "email": "mcalafellsmx@gmail.com"
+        }
+    ],
     "require": {
         "mfacenet/hello-world": "^1.0"
+    },
+    "autoload" : {
+        "psr-4"{
+            "Nosferatux\\learning-composer\\" : "src/"
+        }
     }
+
 }

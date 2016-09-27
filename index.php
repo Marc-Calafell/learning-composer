@@ -1,7 +1,9 @@
 <?php
 
+use HelloWorld\SayHello;
+use Nosferatux\learning-composer;
 
-require "vendor/autoload.php";
+require __DIR__ . "/vendor/autoload.php";
 require "src/SayHello.php";
 
 
